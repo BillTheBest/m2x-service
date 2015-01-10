@@ -3,7 +3,7 @@
 This document aims to provide some guidelines to organize the structure and behavior of M2X's client libraries in order to keep them consistent with each other.
 
 ## Documentation
-- All libraries should have the same [introduction](CLIENT-INTRODUCTION.md) in their `README.md` file.
+- All libraries should have the same [introduction](CLIENT-INTRODUCTION.md) in their `README.md` file and should include a copy of the standard [CONTRIBUTING.md](https://github.com/attm2x/m2x-ruby/blob/master/CONTRIBUTING.md)
 - The rest of the `README.md` file should provide:
   - Installation instructions.
   - A brief introduction on how the library is to be used.
