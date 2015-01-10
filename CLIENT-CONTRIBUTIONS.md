@@ -1,8 +1,10 @@
+# Guidelines for creating a new M2X Client Library
+
 This document aims to provide some guidelines to organize the structure and behavior of M2X's client libraries in order to keep them consistent with each other.
 
 ## Documentation
 - All libraries should have the same [introduction](CLIENT-INTRODUCTION.md) in their `README.md` file.
-- The rest of the `README.md` file should provide
+- The rest of the `README.md` file should provide:
   - Installation instructions.
   - A brief introduction on how the library is to be used.
   - An example of usage.
@@ -14,27 +16,27 @@ Example: https://github.com/attm2x/m2x-ruby/blob/master/README.md
 ## About releases
 Ready to use binaries should be made available for users when applicable. The correct procedure depends on the platform:
 - If there is a centralized library repository (e.g. Rubygems for Ruby), the library should be pushed there.
-- If the library needs to be compiled (e.g. Java), use [Github's release API](https://help.github.com/articles/creating-releases/) and upload the compiled files there. _Note that this supersedes the need of creating version tags since they will already be created by it._
+- If the library needs to be compiled (e.g. Java), use [Github's release API](https://help.github.com/articles/creating-releases/) and upload the compiled files there. _Note that this supersedes the need to create version tags since they will already be created by it._
 
 ## User Agent
-All libraries should inform their user agent to the M2X API, using the following format: `M2X-<Platform>/<Version> <language>/<language_version> (operative_system)`.
+All libraries should pass their user agent to the M2X API, using the following format: `M2X-<Platform>/<Version> <language>/<language_version> (operative_system)`.
 
 For example: `M2X-Ruby/2.0.0 ruby/2.1.3 (x86_64-darwin14.0)`
 
 ## Content type
-So far, all data is sent and received as JSON, libraries should include the correct content type of `application/json` when performing requests with a JSON payload
+Currently, all data is sent and received as JSON, libraries should include the correct content type of `application/json` when performing requests with a JSON payload.
 
 ## General behavior
-The idea behind this section is to standardize client libraries as much as possible, the following guidelines should be followed when the programming language and platform allows so. In other cases, try to stick to this behavior as much as possible.
+The idea behind this section is to standardize client libraries as much as possible. The following guidelines should be followed when the programming language and platform allows so. In other cases, try to stick to this behavior as much as possible but deviate where necessary.
 
 ### Class naming
-Declare classes following the conventions of the [M2X documentation](https://m2x.att.com/developer/documentation/overview), ideally the following classes should be declared:
+Declare classes following the conventions of the [M2X documentation](https://m2x.att.com/developer/documentation/overview). Ideally the following classes should be declared:
   - Distribution
   - Device
   - Stream
   - Key
 
-Each class should implement all the methods defined on their corresponding documentation.
+Each class should implement all the methods defined in their corresponding documentation.
 
 ### Method signature
 Non-CRUD methods should be named after their corresponding endpoint when possible (For example: `Stream#stats`). A special case are the methods that publish stream values:
