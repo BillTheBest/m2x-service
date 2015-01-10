@@ -14,3 +14,8 @@ Please raise any bug reports on the project's [issue tracker](https://github.com
 Getting Support
 ===========
 If you need help, please [contact](https://m2x.att.com/contact) the M2X team directly, or visit the [M2X Help Forum](http://forum-m2x.att.com).
+
+
+Interested in creating your own M2X Library?
+===========
+Great! Please start by reviewing the [Guidelines for creating a new M2X Client Library](https://github.com/attm2x/m2x-service/blob/master/CLIENT-CONTRIBUTIONS.md)
