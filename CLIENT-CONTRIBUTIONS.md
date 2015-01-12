@@ -14,6 +14,8 @@ This document aims to provide some guidelines to organize the structure and beha
 Example: https://github.com/attm2x/m2x-ruby/blob/master/README.md
 
 ## About releases
+Each client library release should include a [git tag](http://git-scm.com/book/en/v2/Git-Basics-Tagging) with the corresponding version number.
+
 Ready to use binaries should be made available for users when applicable. The correct procedure depends on the platform:
 - If there is a centralized library repository (e.g. Rubygems for Ruby), the library should be pushed there.
 - If the library needs to be compiled (e.g. Java), use [Github's release API](https://help.github.com/articles/creating-releases/) and upload the compiled files there. _Note that this supersedes the need to create version tags since they will already be created by it._
