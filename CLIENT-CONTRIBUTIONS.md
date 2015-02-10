@@ -28,6 +28,9 @@ For example: `M2X-Ruby/2.0.0 ruby/2.1.3 (x86_64-darwin14.0)`
 ## Content type
 Currently, all data is sent and received as JSON, libraries should include the correct content type of `application/json` when performing requests with a JSON payload.
 
+## Accept header
+The `accept` header should be included, with `application/json` as its value.
+
 ## General behavior
 The idea behind this section is to standardize client libraries as much as possible. The following guidelines should be followed when the programming language and platform allows so. In other cases, try to stick to this behavior as much as possible but deviate where necessary.
 
