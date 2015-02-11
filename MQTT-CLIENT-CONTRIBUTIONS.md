@@ -4,10 +4,10 @@ This document aims to provide some guidelines to organize the structure and
 behavior of M2X's MQTT client libraries in order to keep them consistent with
 each other.
 
-This document should be considered as a subset of the original [Guidelines for
-M2X Client Libraries](CLIENT-CONTRIBUTIONS.md). All guidelines discussed here
-are specific for the MQTT protocol, but the original document contains the
-general expected behavior.
+This document should be considered a subset of the original [Guidelines for M2X
+Client Libraries](CLIENT-CONTRIBUTIONS.md). All guidelines discussed here are
+specific for the MQTT protocol, but the original document contains the general
+expected behavior.
 
 # Supported API methods
 
