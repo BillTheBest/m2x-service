@@ -1,6 +1,6 @@
 # Guidelines for creating a new M2X Client Library
 
-This document aims to provide some guidelines to organize the structure and behavior of M2X's client libraries in order to keep them consistent with each other.
+This document aims to provide some guidelines to organize the structure and behavior of AT&T M2X's client libraries in order to keep them consistent with each other. Please make sure to consult the [AT&T M2X API Documentation](https://m2x.att.com/developer/documentation/) if you have questions about AT&T M2X API functionality. 
 
 ## Documentation
 - All libraries should have the same [introduction](CLIENT-INTRODUCTION.md) in their `README.md` file and should include a copy of the standard [CONTRIBUTING.md](https://github.com/attm2x/m2x-ruby/blob/master/CONTRIBUTING.md) in their repository
@@ -73,3 +73,6 @@ When possible, a reference to the last received response should be saved on the 
 
 ### Example
 Refer to the [M2X-Ruby](https://github.com/attm2x/m2x-ruby) client library for an example.
+
+### MQTT
+If you are developing a client library that interacts with the M2X API MQTT endpoint, please refer to the [Guidelines for M2X MQTT Client Libraries](MQTT-CLIENT-CONTRIBUTIONS.md)
