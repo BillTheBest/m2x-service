@@ -1,11 +1,11 @@
 # Guidelines for creating MQTT Client Libraries for M2X
 
-This document aims to provide some guidelines to organize the structure and
-behavior of M2X's MQTT client libraries in order to keep them consistent with
+This document aims to provide guidelines to organize the structure and
+behavior of AT&T M2X MQTT client libraries in order to keep them consistent with
 each other.
 
 This document should be considered a subset of the original [Guidelines for M2X
-Client Libraries](CLIENT-CONTRIBUTIONS.md). All guidelines discussed here are
+Client Libraries](MQTT-CLIENT-CONTRIBUTIONS.md). All guidelines discussed here are
 specific for the MQTT protocol, but the original document contains the general
 expected behavior.
 
@@ -33,3 +33,8 @@ push data to.
 
 4. Location updates.
   - `PUT /devices/:id/location`
+
+# M2X MQTT Documentation
+
+Please review the AT&T M2X MQTT Documentation for additional information:
+https://m2x.att.com/developer/documentation/v2/mqtt
