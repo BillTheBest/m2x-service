@@ -35,13 +35,22 @@ The `accept` header should be included, with `application/json` as its value.
 The idea behind this section is to standardize client libraries as much as possible. The following guidelines should be followed when the programming language and platform allows so. In other cases, try to stick to this behavior as much as possible but deviate where necessary.
 
 ### Class naming
-Declare classes following the conventions of the [M2X documentation](https://m2x.att.com/developer/documentation/overview). Ideally the following classes should be declared:
+Declare classes following the conventions of the [M2X documentation](https://m2x.att.com/developer/documentation/overview). 
+
+The following classes should be declared:
   - Distribution
   - Device
   - Stream
   - Key
+  - Job
 
-Each class should implement all the methods defined in their corresponding documentation.
+Each class should implement all the methods defined in their corresponding documentation, with the following exceptions:
+  - Jobs
+    - Only the View Job Details endpoint should be implemented 
+
+The following API's **should not** be added to client libraries:
+  - Triggers
+  - Charts
 
 ### Method signature
 Non-CRUD methods should be named after their corresponding endpoint when possible (For example: `Stream#stats`). A special case are the methods that publish stream values:
