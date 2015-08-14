@@ -83,5 +83,7 @@ When possible, a reference to the last received response should be saved on the 
 ### Example
 Refer to the [M2X-Ruby](https://github.com/attm2x/m2x-ruby) client library for an example.
 
-### MQTT
-If you are developing a client library that interacts with the M2X API MQTT endpoint, please refer to the [Guidelines for M2X MQTT Client Libraries](MQTT-CLIENT-CONTRIBUTIONS.md)
+### Limited Clients
+If you are developing a client library for a device with limited resources or one that interacts 
+with the M2X API MQTT endpoint, please refer to the [Guidelines for M2X Limited 
+Client Libraries](LIMITED-CLIENT-CONTRIBUTIONS.md)
