@@ -9,6 +9,12 @@ Client Libraries](CLIENT-CONTRIBUTIONS.md). All guidelines discussed here are
 specific for limited client libraries, but the original document contains the 
 general expected behavior.
 
+**Limited v. Full-Featured**
+
+*Limited device*: device that cannot run Linux, hence requiring special bootloader to boot the device, e.g. Arduino, ARM mbed, Cypress PSoC, Teensy, etc.
+
+*Full-featured device*: device that runs an embedded version of Linux, e.g. include Raspberry Pi, BeagleBoard, etc.
+
 # Supported API methods
 
 The implementation of limited M2X clients aims to provide support to restricted 
