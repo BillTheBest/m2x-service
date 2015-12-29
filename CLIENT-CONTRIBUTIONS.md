@@ -104,8 +104,8 @@ Client Libraries](LIMITED-CLIENT-CONTRIBUTIONS.md)
 - [iOS](https://github.com/attm2x/m2x-ios) @lucholaf 
 - [Elixir](https://github.com/attm2x/m2x-elixir) @jemc 
 - [Erlang](https://github.com/attm2x/m2x-erlang) @jemc 
-- [dot net](https://github.com/attm2x/m2x-dot-net) Tula Team
-- [Node Red](https://github.com/attm2x/node-red-m2x)
+- [dot net](https://github.com/attm2x/m2x-dot-net) @inkel
+- [Node Red](https://github.com/attm2x/node-red-m2x) @fsaravia
 - [Go](https://github.com/jsgoecke/m2x-go) (Community Library)
 
 *Limited Libraries*
