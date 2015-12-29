@@ -87,3 +87,41 @@ Refer to the [M2X-Ruby](https://github.com/attm2x/m2x-ruby) client library for a
 If you are developing a client library for a device with limited resources or one that interacts 
 with the M2X API MQTT endpoint, please refer to the [Guidelines for M2X Limited 
 Client Libraries](LIMITED-CLIENT-CONTRIBUTIONS.md)
+
+*************************************************
+### Client Libraries by Category/Maintainer
+
+*Full-Featured*
+- [C-HTTP](https://github.com/attm2x/m2x-c) @xxuejie
+- [Python](https://github.com/attm2x/m2x-python) @omab
+- [Ruby-HTTP](https://github.com/attm2x/m2x-ruby) @fsaravia
+- [PHP-HTTP](https://github.com/attm2x/m2x-php) @jellehenkens 
+- [Node JS](https://github.com/attm2x/m2x-nodejs) @grilix 
+- [Tessel](https://github.com/attm2x/m2x-tessel) @netarc
+- [JavaScript](https://github.com/attm2x/m2x-javascript) @grilix 
+- [Java](https://github.com/attm2x/m2x-java) @kristinpeterson
+- [Android](https://github.com/attm2x/m2x-android) @kristinpeterson
+- [iOS](https://github.com/attm2x/m2x-ios) @lucholaf 
+- [Elixir](https://github.com/attm2x/m2x-elixir) @jemc 
+- [Erlang](https://github.com/attm2x/m2x-erlang) @jemc 
+- [dot net](https://github.com/attm2x/m2x-dot-net) Tula Team
+- [Node Red](https://github.com/attm2x/node-red-m2x)
+- [Go](https://github.com/jsgoecke/m2x-go) (Community Library)
+
+*Limited Libraries*
+- [Arduino rewrite](https://github.com/attm2x/m2x-arduino-rewrite) @netarc
+- [Old Arduino](https://github.com/attm2x/m2x-arduino) @xxuejie
+- [Launchpad Energia](https://github.com/attm2x/m2x-launchpad-energia) @xxuejie
+- [mbed](https://github.com/attm2x/m2x-arm-mbed) @xxuejie
+- [C-MQTT](https://github.com/attm2x/m2x-c-mqtt) @xxuejie
+- [Cypress PSOC](https://github.com/attm2x/m2x-cypress-psoc) @xxuejie
+- [Spark Core](https://github.com/attm2x/m2x-spark-core) @netarc
+- [Electric Imp](https://github.com/attm2x/m2x-electric-imp) @xxuejie
+- [Nanode](https://github.com/attm2x/m2x-nanode) @xxuejie
+- [Ruby-MQTT](https://github.com/attm2x/m2x-ruby-mqtt) @fsaravia
+- [PHP-MQTT](https://github.com/attm2x/m2x-php-mqtt) @jellehenkens
+- [Python-MQTT](https://github.com/attm2x/m2x-python-mqtt)
+- [mruby](https://github.com/attm2x/m2x-mruby) @jemc 
+- [Samsung Gear S](https://github.com/attm2x/m2x-gear-s)  @vsiul [Samsung]
+- [Cylon.js](https://github.com/hybridgroup/cylon-m2x) (Community Library)
+- [wot.io](https://github.com/WoTio/opifex.m2x) (Community Library)
