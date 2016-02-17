@@ -21,23 +21,29 @@ The implementation of limited M2X clients aims to provide support to restricted
 devices and therefore only a subset of the available endpoints should be 
 supported by limited clients. These endpoints include:
 
-1. Device creation: In order for physical devices to be able to initialize
+1. Device creation: 
+  > In order for physical devices to be able to initialize
 themselves against M2X, the two endpoints that allow creating a device should
 be supported.
   - `POST /devices`
   - `POST /distributions/:id/devices`
 
-2. Stream creation: Devices must be able to create the streams they are going to
+2. Stream creation:
+  >  Devices must be able to create the streams they are going to
 push data to.
-  - `PUT /devices/:id/streams/:name`
+  - [`PUT /devices/:id/streams/:name`](https://m2x.att.com/developer/documentation/v2/device#Create-Update-Data-Stream)
 
-3. Values writing.
-  - `PUT /devices/:id/streams/:name/value`
-  - `POST /devices/:id/streams/:name/values`
-  - `POST /devices/:id/updates`
+3. Values writing:
+  - [`PUT /devices/:id/streams/:name/value`](https://m2x.att.com/developer/documentation/v2/device#Update-Data-Stream-Value)
+  - [`POST /devices/:id/streams/:name/values`](https://m2x.att.com/developer/documentation/v2/device#Post-Data-Stream-Values)
+  - [`POST /devices/:id/update`](https://m2x.att.com/developer/documentation/v2/device#Post-Device-Update--Single-Values-to-Multiple-Streams-)
+  - [`POST /devices/:id/updates`](https://m2x.att.com/developer/documentation/v2/device#Post-Device-Updates--Multiple-Values-to-Multiple-Streams-)
 
-4. Location updates.
-  - `PUT /devices/:id/location`
+4. Location updates:
+  - [`PUT /devices/:id/location`](https://m2x.att.com/developer/documentation/v2/device#Update-Device-Location)
+
+5. Time API:
+  - [`GET /time`](https://m2x.att.com/developer/documentation/v2/time)
 
 # M2X MQTT Documentation
 
