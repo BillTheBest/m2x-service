@@ -25,8 +25,8 @@ supported by limited clients. These endpoints include:
   > In order for physical devices to be able to initialize
 themselves against M2X, the two endpoints that allow creating a device should
 be supported.
-  - `POST /devices`
-  - `POST /distributions/:id/devices`
+  - [`POST /devices`](https://m2x.att.com/developer/documentation/v2/device#Create-Device)
+  - [`POST /distributions/:id/devices`](https://m2x.att.com/developer/documentation/v2/distribution#Add-Device-to-an-existing-Distribution)
 
 2. Stream creation:
   >  Devices must be able to create the streams they are going to
