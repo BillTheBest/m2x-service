@@ -1,4 +1,4 @@
-# Guidelines for creating Limited Client Libraries for M2X
+# Guidelines for creating Limited <br />Client Libraries for M2X
 
 This document aims to provide guidelines to organize the structure and
 behavior of AT&T M2X client libraries for resource limited devices in order 
