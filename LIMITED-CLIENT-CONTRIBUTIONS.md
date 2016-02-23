@@ -42,7 +42,11 @@ push data to.
 4. Location updates:
   - [`PUT /devices/:id/location`](https://m2x.att.com/developer/documentation/v2/device#Update-Device-Location)
 
-5. Time API:
+5. Command status updates:
+  - [`PUT / devices/:id/commands/:id/process`](https://m2x.att.com/developer/documentation/v2/commands#Device-Marks-a-Command-as-Processed)
+  - [`PUT /devices/:id/commands/:id/reject`](https://m2x.att.com/developer/documentation/v2/commands#Device-Marks-a-Command-as-Rejected)
+
+6. Time API:
   - [`GET /time`](https://m2x.att.com/developer/documentation/v2/time)
 
 # M2X MQTT Documentation
