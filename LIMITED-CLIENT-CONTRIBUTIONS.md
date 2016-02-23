@@ -43,6 +43,7 @@ push data to.
   - [`PUT /devices/:id/location`](https://m2x.att.com/developer/documentation/v2/device#Update-Device-Location)
 
 5. Command status updates:
+  - [`GET /devices/:id/commands`](https://m2x.att.com/developer/documentation/v2/commands#Device-s-List-of-Received-Commands) (HTTP Only, this method is not required for MQTT libraries which are able to subscribe to commands)
   - [`PUT / devices/:id/commands/:id/process`](https://m2x.att.com/developer/documentation/v2/commands#Device-Marks-a-Command-as-Processed)
   - [`PUT /devices/:id/commands/:id/reject`](https://m2x.att.com/developer/documentation/v2/commands#Device-Marks-a-Command-as-Rejected)
 
