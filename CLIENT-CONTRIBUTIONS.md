@@ -38,11 +38,14 @@ The idea behind this section is to standardize client libraries as much as possi
 Declare classes following the conventions of the [M2X documentation](https://m2x.att.com/developer/documentation/overview). 
 
 The following classes should be declared:
-  - Distribution
+  - Collection
+  - Command
   - Device
-  - Stream
-  - Key
+  - Distribution
   - Job
+  - Key
+  - Metadata
+  - Stream
 
 Each class should implement all the methods defined in their corresponding documentation, with the following exceptions:
   - Jobs
