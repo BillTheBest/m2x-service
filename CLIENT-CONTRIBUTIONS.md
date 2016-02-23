@@ -1,4 +1,4 @@
-# Guidelines for creating a new M2X Client Library
+# Guidelines for creating/contributing to <br />M2X Client Libraries
 
 This document aims to provide some guidelines to organize the structure and behavior of AT&T M2X's client libraries in order to keep them consistent with each other. Please make sure to consult the [AT&T M2X API Documentation](https://m2x.att.com/developer/documentation/) if you have questions about AT&T M2X API functionality. 
 
