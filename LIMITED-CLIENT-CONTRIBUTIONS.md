@@ -1,12 +1,12 @@
 # Guidelines for creating/contributing to <br /> Limited Client Libraries for M2X
 
 This document aims to provide guidelines to organize the structure and
-behavior of AT&T M2X client libraries for resource limited devices in order 
+behavior of AT&T M2X client libraries for resource limited devices in order
 to keep them consistent with each other.
 
 This document should be considered a subset of the original [Guidelines for M2X
 Client Libraries](CLIENT-CONTRIBUTIONS.md). All guidelines discussed here are
-specific for limited client libraries, but the original document contains the 
+specific for limited client libraries, but the original document contains the
 general expected behavior.
 
 **Limited v. Full-Featured**
@@ -17,11 +17,11 @@ general expected behavior.
 
 # Supported API methods
 
-The implementation of limited M2X clients aims to provide support to restricted 
-devices and therefore only a subset of the available endpoints should be 
+The implementation of limited M2X clients aims to provide support to restricted
+devices and therefore only a subset of the available endpoints should be
 supported by limited clients. These endpoints include:
 
-1. Device creation: 
+1. Device creation:
   > In order for physical devices to be able to initialize
 themselves against M2X, the two endpoints that allow creating a device should
 be supported.
