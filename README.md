@@ -1,6 +1,6 @@
 # AT&amp;T M2X Service
 
-Welcome to the AT&amp;T GitHub account. This account holds the repositories for all our open source client libraries.
+Welcome to the AT&amp;T M2X GitHub account. This account holds the repositories for all our open source client libraries.
 
 This repository should be used for filing requests for features/enhancements, bugs, and issues for the [AT&amp;T M2X Service](https://m2x.att.com/). For issues with a specific library please refer to the repository of the specific client library.
 
