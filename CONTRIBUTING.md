@@ -1,6 +1,6 @@
 # Instructions for filing issues
 
-Please use the [m2x-service](https://github.com/attm2x/m2x-service) repository to fill any issues related to the M2X Service. If you want to file an issue for a client library refer to the corresponding project's repository. Be sure to search the list of open issues to see if your issue has already been raised.
+Please use the [m2x-service](https://github.com/attm2x/m2x-service) repository to file any issues related to the M2X Service. If you want to file an issue for a client library please do so to the corresponding project's repository. Be sure to search the list of open issues to see if your issue has already been raised.
 
 Try to use distinct and descriptive subject lines to make issues easier to identify.
 
@@ -28,4 +28,4 @@ Members of the M2X team will take a look at the Pull Request as soon as possible
 
 Once the Pull Request is approved, internal contributors should merge it and delete the original branch. External contributions will be merged by the team member that approved the Pull Request.
 
-Pull Requests should avoid changing the version number. Releases will be handled by the M2X team.
+Do not change the version number in Pull Requests. Version bumps and releases will be handled by the M2X team.
